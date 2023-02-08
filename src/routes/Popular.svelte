@@ -69,7 +69,7 @@
             }
         }
 
-        @media (min-width: 376px) {
+        @media (min-width: 710px) {
             grid-column: 1/4;
             grid-template-columns: repeat(3, 1fr)
         }

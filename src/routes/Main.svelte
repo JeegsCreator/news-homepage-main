@@ -72,7 +72,7 @@
             }
         }
 
-        @media (min-width: 376px) {
+        @media (min-width: 710px) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);

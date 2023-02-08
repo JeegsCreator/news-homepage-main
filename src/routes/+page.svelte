@@ -61,7 +61,7 @@ const data:returnData = {
 <style lang="scss">
     .app{
 
-        @media (min-width: 376px) {
+        @media (min-width: 710px) {
             padding-inline: 10%;
             display: grid;
             grid-template-columns: repeat(3, 1fr);

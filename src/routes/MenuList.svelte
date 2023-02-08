@@ -72,7 +72,7 @@
                     }
                 }
 
-                @media (min-width: 376px) {
+                @media (min-width: 710px) {
                     background-color: transparent;
                     height: 70px;
                     flex-direction: row;

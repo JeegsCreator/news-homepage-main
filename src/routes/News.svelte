@@ -62,7 +62,7 @@
             }
         }
 
-        @media (min-width: 376px) {
+        @media (min-width: 710px) {
             margin-top: 80px;
         }
     }

@@ -109,7 +109,7 @@
             
         }
 
-        @media (min-width: 376px) {
+        @media (min-width: 710px) {
             width: 80%;
 
             &__menu{
