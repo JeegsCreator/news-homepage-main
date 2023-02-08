@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess'
 import path from 'node:path';
 const dev = process.argv.includes('dev');
@@ -12,7 +12,7 @@ const config = {
 			]
 		},
 		paths: {
-			base: dev ? '' : '/news-homepage-main',
+			base: '',
 		},
 		appDir: 'internal',
 		adapter: adapter()
