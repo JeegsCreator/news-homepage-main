@@ -18,7 +18,7 @@
     }
 
     onMount(() => {
-        if (screen.width > 375) {
+        if (screen.width > 710) {
             menuVisible = true
             menuAnimationInfo.delay = 0
             menuAnimationInfo.duration = 0
