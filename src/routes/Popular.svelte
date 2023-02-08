@@ -1,6 +1,7 @@
 <script lang="ts">
-    import type { returnData } from './types'
+    import type { returnData, blogData } from './types'
     export let data:returnData
+    import { base } from '$app/paths'
 
     let popular:blogData[] = (data.popular) ? data.popular : []
 </script>
@@ -13,7 +14,7 @@
                 <p class="popular__entry__info__number">
                     0{i+1}
                 </p>
-                <a href="/" class="popular__entry__info__title">
+                <a href="{base}/" class="popular__entry__info__title">
                     {entry.title}
                 </a>
                 <p class="popular__entry__info__description">

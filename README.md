@@ -1,7 +1,7 @@
 # News Homepage 
 
 ## Overview
-A UI interface to a News homepage based in [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl) based in components an build with Svelte Kit.
+A UI interface to a News homepage based in [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)
 
 ### Screenshot
 ![screenshot of the project in Desktop view](./screenshot.jfif)

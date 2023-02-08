@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { blogData, returnData } from "./types";
     export let data: returnData
-
+    import { base } from '$app/paths'
     let news:blogData[] = (data.news) ? data.news : []
 
 </script>
@@ -12,7 +12,7 @@
         <!-- <div class="news__content__blog"> -->
             {#each news as entry}
                 <div class="news__content__entry">
-                    <a href="/" class="news__content__entry__title">{entry.title}</a>
+                    <a href="{base}/" class="news__content__entry__title">{entry.title}</a>
                     <p class="news__content__entry__description">{entry.description}</p>
                 </div>
             {/each}

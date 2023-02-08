@@ -1,6 +1,7 @@
 <script lang="ts">
     import type {returnData, blogData} from "./types"
     export let data:returnData;
+    import { base } from '$app/paths'
 
     let main:blogData;
 
@@ -17,7 +18,7 @@
     <h1 class="main__title">{main.title}</h1>
     <div class="main__info">
         <p class="main__description">{main.description}</p>
-        <a href="/" class="main__link">read more</a>
+        <a href="{base}/" class="main__link">read more</a>
     </div>
 </main>
 

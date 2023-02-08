@@ -1,26 +1,30 @@
+<script>
+    import { base } from '$app/paths'
+</script>
+
 <ul class='nav__menu__container__ul'>
     <li class="nav__menu__container__ul__li">
-        <a href="/"
+        <a href="{base}/"
             class="nav__menu__container__ul__li__a"
         >home</a>
     </li>
     <li class="nav__menu__container__ul__li">
-        <a href="/"
+        <a href="{base}/"
             class="nav__menu__container__ul__li__a"
         >new</a>
     </li>
     <li class="nav__menu__container__ul__li">
-        <a href="/"
+        <a href="{base}/"
             class="nav__menu__container__ul__li__a"
         >popular</a>
     </li>
     <li class="nav__menu__container__ul__li">
-        <a href="/"
+        <a href="{base}/"
             class="nav__menu__container__ul__li__a"
         >trending</a>
     </li>
     <li class="nav__menu__container__ul__li">
-        <a href="/"
+        <a href="{base}/"
             class="nav__menu__container__ul__li__a"
         >categories</a>
     </li>

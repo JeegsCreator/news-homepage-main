@@ -94,7 +94,7 @@
             }
 
             &__container{
-                background-color: color.adjust($very-dark-blue, $alpha: -0.5);
+                background-color: $very-dark-blue-alpha;
                 position: absolute;
                 top: 0;
                 bottom: 0;

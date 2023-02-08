@@ -1,21 +1,25 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess'
 import path from 'node:path';
+const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: null,
-			precompress: false,
-			strict: true
-		})
+		prerender: {
+			entries: [
+				'*'
+			]
+		},
+		paths: {
+			base: dev ? '' : '/news-homepage-main',
+		},
+		appDir: 'internal',
+		adapter: adapter()
 	},
 	preprocess: preprocess({
 		scss: {
-			prependData: `@use "sass:color"; @import '${path.resolve('./src/routes/app.scss')}';`
+			prependData: `@import '${path.resolve('./src/routes/app.scss')}';`
 		  } 
 	})
 };
