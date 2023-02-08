@@ -12,7 +12,7 @@ const config = {
 			]
 		},
 		paths: {
-			base: dev ? '' : '/news-homepage-main',
+			base: dev ? '' : '/news-homepage-page',
 		},
 		appDir: 'internal',
 		adapter: adapter()
